@@ -8,8 +8,8 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @Builder
 
-public class helloDto {
+public class QuestionDto {
 
-    private final Integer id;
     private final String message;
+    private final String answer;
 }
